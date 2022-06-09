@@ -1,0 +1,11 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 80px 50px 80px;
+
+  &__login {
+    border: 1px solid black;
+    border-radius: 100px;
+  }
+}
