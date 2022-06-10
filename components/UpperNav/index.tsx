@@ -8,7 +8,7 @@ const UpperNav = () => {
         <span className="uppercase font-extrabold text-3xl	">logo</span>
       </div>
       <div className={styles.Container__login}>
-        <span className="uppercase text-lg p-10	text-base">
+        <span className="uppercase text-sm pt-4 pb-4 pl-10 pr-10	text-base">
           login with metamask
         </span>
       </div>
