@@ -1,12 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import UpperNav from '../components/UpperNav';
-
+import LandingPage from '../Container/Landingpage';
 const Home: NextPage = () => {
   return (
     <div>
-      <UpperNav />
+      <LandingPage />
     </div>
   );
 };
