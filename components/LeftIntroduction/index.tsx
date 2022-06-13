@@ -18,7 +18,7 @@ const LeftIntroduction = () => {
         </span>
       </div>
       <div className={styles.Container__button}>
-        <span className="uppercase text-lg px-16 py-2">get started</span>
+        <span className="uppercase text-sm px-16 py-2">get started</span>
       </div>
     </div>
   );
