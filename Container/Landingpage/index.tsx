@@ -8,7 +8,6 @@ import Footer from '../../components/Footer';
 const LandingPage = () => {
   return (
     <div className={styles.Container}>
-      <UpperNav />
       <div className={styles.Container__wrapper}>
         <div className={styles.Container__wrapper__left}>
           <LeftIntroduction />
