@@ -1,12 +1,16 @@
 .Container {
+  margin-bottom: 40px;
+
   &__description {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   &__button {
-    margin-top: 80px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
     span {
-      border-radius: 100px;
-      background-color: #d9d9d9;
+      border-radius: 10px;
+      background-color: #fb564c;
     }
   }
 }
