@@ -7,7 +7,7 @@ const RightIntroduction = () => {
   return (
     <div className={styles.Container}>
       <div className={styles.Container__image}>
-        <Image src={image} height={350} width={450} />
+        <Image src={image} height={400} width={450} />
       </div>
     </div>
   );

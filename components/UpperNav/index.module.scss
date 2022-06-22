@@ -3,11 +3,19 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 40px;
-
+  margin-left: 100px;
+  margin-right: 100px;
   &__login {
+    display: flex;
+    flex-direction: row;
+    p {
+      font-weight: 500;
+    }
     span {
-      border: 1px solid black;
-      border-radius: 100px;
+      border-radius: 10px;
+      background-color: #f45b49;
+      color: white;
+      font-weight: 700;
     }
   }
 }
