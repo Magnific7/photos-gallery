@@ -1,21 +1,29 @@
 .Container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
-  &__login {
+  overflow: hidden;
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  margin-top: -100px;
+  background-color: white;
+  &__wrapper {
     display: flex;
     flex-direction: row;
-    p {
-      font-weight: 500;
-    }
-    span {
-      border-radius: 10px;
-      background-color: #f45b49;
-      color: white;
-      font-weight: 700;
+    justify-content: space-between;
+    margin-left: 100px;
+
+    &__login {
+      display: flex;
+      flex-direction: row;
+      margin-right: 100px;
+      p {
+        font-weight: 500;
+      }
+      span {
+        border-radius: 10px;
+        background-color: #f45b49;
+        color: white;
+        font-weight: 700;
+      }
     }
   }
 }

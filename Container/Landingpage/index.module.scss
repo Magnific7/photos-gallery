@@ -1,8 +1,8 @@
 .Container {
   flex-direction: row;
   &__wrapper {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 100px 100px 0px 100px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
