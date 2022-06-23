@@ -1,16 +1,17 @@
 .Container {
   margin-bottom: 40px;
+  padding-top: 40px;
+
+  &__title{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 68px;
+  }
 
   &__description {
-    margin-top: 30px;
-  }
-  &__button {
-    margin-top: 30px;
-    color: white;
-    font-weight: 600;
-    span {
-      border-radius: 10px;
-      background-color: #fb564c;
-    }
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px 0 60px;
+    line-height: 38px;
   }
 }

@@ -1,17 +1,27 @@
-.Container {
-  flex-direction: row;
-  &__wrapper {
-    margin: 100px 100px 0px 100px;
+@import "../../styles/variables.scss";
 
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $container-padding;
+  padding-top: calc($nav-height + 20px);
+  padding-bottom: 40px;
+  background-color: $light-grey;
+
+  &__wrapper {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: $max-width;
 
     &__left {
-      margin-top: 80px;
+      width: 50%;
     }
     &__right {
-      margin-top: 20px;
+      width: 50%;
     }
   }
 }

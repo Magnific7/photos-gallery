@@ -1,9 +1,7 @@
 import React, { FC } from 'react';
 import styles from './index.module.scss';
 import LeftIntroduction from '../../components/LeftIntroduction';
-import UpperNav from '../../components/UpperNav';
 import RightIntroduction from '../../components/RightIntroduction';
-import Footer from '../../components/Footer';
 
 const LandingPage = () => {
   return (
@@ -16,7 +14,6 @@ const LandingPage = () => {
           <RightIntroduction />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
