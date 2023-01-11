@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styles from './index.module.scss';
 import Image from 'next/image';
-import image from '../../public/landing.svg';
+import image from '../../public/two.svg';
 
 const RightIntroduction = () => {
   return (
