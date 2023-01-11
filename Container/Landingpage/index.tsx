@@ -3,7 +3,7 @@ import styles from './index.module.scss';
 import LeftIntroduction from '../../components/LeftIntroduction';
 import RightIntroduction from '../../components/RightIntroduction';
 
-const LandingPage = () => {
+const LandingPage: FC = () => {
   return (
     <div className={styles.Container}>
       <div className={styles.Container__wrapper}>
