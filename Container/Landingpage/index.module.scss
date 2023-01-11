@@ -2,6 +2,7 @@
 
 .Container {
   width: 100%;
+  color:#3d3e53;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +12,8 @@
   background-color: $light-grey;
 
   &__wrapper {
+    color:#3d3e53;
+
     width: 100%;
     display: flex;
     flex-direction: row;

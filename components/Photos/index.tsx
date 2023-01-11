@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import styles from './index.module.scss';
 import Image from 'next/image';
 import { useDispatch, useSelector } from "react-redux";
-import picture from '../../public/landing.svg';
+import picture from '../../public/two.svg';
 import { IRootState } from '../../redux/initialStates';
 import {useState, useEffect}  from 'react'
 

@@ -14,7 +14,7 @@ const UpperNav = () => {
           <p className=" text-sm pt-4 pb-4 pl-10 pr-10	text-base">Videos</p>
           <p className=" text-sm pt-4 pb-4 pl-10 pr-10	text-base">Contacts</p>
           <p className=" text-sm pt-4 pb-4 pl-10 pr-10	text-base">Files</p>
-          <Button>Login with metamask</Button>
+          <Button>Login Here</Button>
         </div>
       </div>
     </div>

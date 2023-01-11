@@ -6,7 +6,7 @@ const LeftIntroduction = () => {
   return (
     <div className={styles.Container}>
       <div className={styles.Container__title}>
-        Decentralized cloud <br /> storage for your files <br /> and medias
+        Storage for your files <br /> and medias
       </div>
       <div className={styles.Container__description}>
         The cheapest solution to saving your files <br />
