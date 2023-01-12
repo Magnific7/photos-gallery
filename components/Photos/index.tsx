@@ -26,6 +26,8 @@ const Photos: FC = () => {
   // }, [photosList]);
 
   return (
+    <div>
+
     <div className={styles.Container}>
       <div className={styles.Container__wrapper}>
         <div className="grid grid-cols-4 gap-4 flex items-center">
@@ -52,6 +54,34 @@ const Photos: FC = () => {
 
       </div>
     </div>
+      <div className={styles.Container}>
+      <div className={styles.Container__wrapper}>
+        <div className="grid grid-cols-4 gap-4 flex items-center">
+        <div className="mb-4">
+        <Image src={picture} className="max-w-full h-auto rounded-lg" />
+
+  </div>
+        </div>
+
+        <div className="grid grid-cols-4 gap-4 flex items-center">
+        <div className="mb-4">
+        <Image src={picture} className="max-w-full h-auto rounded-lg" />
+
+  </div>
+        </div>
+
+        <div className="grid grid-cols-4 gap-4 flex items-center">
+        <div className="mb-4">
+        <Image src={picture} className="max-w-full h-auto rounded-lg" />
+
+  </div>
+        </div>
+        
+
+      </div>
+    </div>
+    </div>
+
   );
 };
 
